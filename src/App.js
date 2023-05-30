@@ -24,7 +24,7 @@ function App() {
         <div>Email:</div>
         <input
           id="emailField"
-          type="text"
+          type="email"
           name="email"
           onChange={formik.handleChange}
           value={formik.values.email}
